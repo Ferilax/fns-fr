@@ -1,0 +1,34 @@
+.splide__pagination {
+	gap: 10px;
+
+	width: 100%;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	translate: -50%;
+
+	li {
+		display: flex;
+	}
+
+	.splide__pagination__page {
+		width: 68px;
+		height: 4px;
+
+		border-radius: 100px;
+		background: #FFFFFF4D;
+	}
+
+	.splide__pagination__page.is-active {
+		background: white;
+	}
+
+	@media (width < 1024px) {
+		gap: 4px;
+		bottom: 10px;
+
+		.splide__pagination__page {
+			width: 43px;
+		}
+	}
+}

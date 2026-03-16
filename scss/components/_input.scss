@@ -1,0 +1,14 @@
+.component_input {
+
+	background: var(--grey);
+	border-radius: 100px;
+	height: 45px;
+	padding: 0 20px;
+
+	color: var(--dark);
+	font-size: 18px;
+
+	&::placeholder {
+		color: #363636B2;
+	}
+}

@@ -1,0 +1,103 @@
+header {
+	margin-top: 60px;
+
+	position: absolute;
+	z-index: var(--z-header);
+	width: 100%;
+	color: white;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.left {
+		display: flex;
+		gap: 40px;
+		align-items: center;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.line {
+		width: 1px;
+		background: white;
+		height: 64px;
+	}
+
+	.russia-logo {
+		flex: 0 0 90px;
+	}
+
+	.fns {
+		display: flex;
+		gap: 20px;
+		align-items: center;
+
+		span {
+			flex: 0 1 433px;
+		}
+	}
+
+	.fns-logo {
+		flex: 0 0 76px;
+	}
+
+	.right {
+		display: flex;
+		font-size: 18px;
+		align-items: center;
+		gap: 14px;
+	}
+
+	.switch-language,
+	.send-application,
+	.profile {
+		background: var(--blue);
+		border-radius: 100px;
+		height: 53px;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.switch-language {
+		min-width: 53px;
+	}
+
+	.send-application {
+		padding: 0 20px;
+	}
+
+	.profile {
+		background: var(--dark-blue);
+		min-width: 53px;
+	}
+
+	@media (width < 1200px) {
+		.fns {
+			span {
+				display: none;
+			}
+		}
+	}
+
+	@media (width < 768px) {
+		margin-top: 28px;
+
+		.left {
+			gap: 10px;
+		}
+
+		.russia-logo {
+			flex: 0 0 60px;
+		}
+
+		.send-application {
+			display: none;
+		}
+	}
+}

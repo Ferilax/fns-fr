@@ -1,0 +1,196 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #0000006e;
+	z-index: var(--z-modal);
+
+	align-content: center;
+	overflow: auto;
+	padding: var(--container-padding);
+
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+
+	&._open {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	&__content {
+		max-width: 1435px;
+		margin: auto;
+		padding: 60px;
+
+		border-radius: 50px;
+
+		background: url("../img/bg-spring.webp") right bottom;
+		background-repeat: no-repeat;
+		background-color: white;
+	}
+
+	.head {
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+	}
+
+	.title {
+		font-size: 32px;
+	}
+
+	.subtitle {
+		opacity: .8;
+		font-size: 18px;
+		margin-top: 4px;
+	}
+
+	.body {
+		margin-top: 40px;
+		display: flex;
+		gap: 40px;
+	}
+
+	.left {
+		flex: 0 1 628px;
+	}
+
+	.right {
+		flex: 0 1 647px;
+		background: var(--grey);
+		padding: 24px 32px;
+		border-radius: 20px;
+
+		display: flex;
+		flex-direction: column;
+
+		.group {
+			padding: 0;
+		}
+	}
+
+	.group {
+		padding: 24px 0;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.group-head {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.group-title {
+		font-size: 24px;
+		color: #36363680;
+	}
+
+	.group-text {
+		font-weight: 400;
+
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+
+	.big {
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	.profile {
+		margin-top: auto;
+	}
+
+	.profile-avatar {
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		contain: paint;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.profile-quotes {
+		margin-top: 32px;
+		font-size: 18px;
+		letter-spacing: 3%;
+		color: var(--blue);
+		opacity: .8;
+	}
+
+	@media (width < 1024px) {
+		.left {
+			flex: unset;
+		}
+
+		.right {
+			flex: unset;
+			padding: 24px;
+			border-radius: 24px;
+		}
+
+		.body {
+			margin-top: 16px;
+			gap: 20px;
+			flex-direction: column;
+		}
+
+		.modal__content {
+			padding: 32px;
+			border-radius: 32px;
+		}
+
+		.title {
+			font-size: 26px;
+		}
+
+		.group-title {
+			font-size: 20px;
+		}
+
+		.group {
+			padding: 16px 0;
+		}
+
+		.profile {
+			margin-top: 30px;
+		}
+
+		.big {
+			font-size: 18px;
+		}
+	}
+
+	@media (width < 768px) {
+		.modal__content {
+			padding: 24px;
+			border-radius: 24px;
+		}
+
+		.title {
+			font-size: 20px;
+		}
+
+		.subtitle {
+			margin-top: 10px;
+			font-size: 16px;
+			font-weight: 400;
+		}
+
+		.right {
+			padding: 12px;
+			border-radius: 12px;
+		}
+	}
+}

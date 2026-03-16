@@ -1,0 +1,95 @@
+.accordion {
+	--padding: 40px;
+	--radius: 50px;
+	transition: .3s;
+
+	background: var(--grey);
+	border-radius: var(--radius);
+	padding: var(--padding);
+	cursor: pointer;
+
+	button {
+		display: flex;
+		flex-shrink: 0;
+	}
+
+	svg,
+	path,
+	rect {
+		transition: .3s;
+	}
+
+	svg {
+		height: 100%;
+		width: 100%;
+	}
+
+	.accordion__q {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 20px;
+
+		transition: inherit;
+
+		color: #363636B2;
+		font-size: 24px;
+	}
+
+	.accordion__a {
+		align-content: center;
+
+		color: #36363680;
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	.accordion__content {
+		padding-top: 17px;
+	}
+
+	&._open {
+		svg {
+			rotate: 90deg;
+		}
+
+		path {
+			fill: var(--black);
+		}
+
+		rect {
+			stroke: var(--black);
+		}
+	}
+
+	@media (width < 1024px) {
+		--padding: 24px;
+		--radius: 24px;
+
+		button {
+			width: 28px;
+			height: 28px;
+		}
+
+		.accordion__content {
+			padding-top: 6px;
+		}
+
+		.accordion__q {
+			font-size: 20px;
+		}
+	}
+
+	@media (width < 768px) {
+		--padding: 12px;
+
+		.accordion__q {
+			font-weight: 400;
+			font-size: 16px;
+		}
+
+		.accordion__a {
+			font-size: 16px;
+		}
+	}
+}

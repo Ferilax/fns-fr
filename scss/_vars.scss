@@ -1,0 +1,28 @@
+:root {
+	--dark-blue: #004691;
+	--blue: #374C95;
+	--light-blue: #B0D2ED;
+	--grey: #F6F6F6;
+	--dark: #363636;
+
+	--container-padding: 50px;
+
+	--z-header: 40;
+	--z-modal: 100;
+
+	@media (width < 1200px) {
+		--container-padding: 40px;
+	}
+
+	@media (width < 1024px) {
+		--container-padding: 30px;
+	}
+
+	@media (width < 768px) {
+		--container-padding: 25px;
+	}
+
+	@media (width < 425px) {
+		--container-padding: 16px;
+	}
+}
