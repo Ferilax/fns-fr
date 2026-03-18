@@ -160,47 +160,47 @@ export const translations = {
 		fr: "Formats de formation",
 		ar: "صيغ التدريب",
 	},
-	programs_card1_title: {
+	formats_card1_title: {
 		fr: "Cours intensifs",
 		ar: "دورات مكثفة",
 	},
-	programs_card1_text: {
+	formats_card1_text: {
 		fr: "Programmes courts axés sur la pratique et les cas concrets",
 		ar: "برامج قصيرة تركز على الممارسة والحالات الملموسة",
 	},
-	programs_card2_title: {
+	formats_card2_title: {
 		fr: "Formations",
 		ar: "جلسات المشروع",
 	},
-	programs_card2_text: {
+	formats_card2_text: {
 		fr: "Mise en pratique de compétences spécifiques grâce à des exercices, des jeux d'entreprise et des simulations de situations professionnelles",
 		ar: "برامج قصيرة تركز على الممارسة والحالات الملموسة",
 	},
-	programs_card3_title: {
+	formats_card3_title: {
 		fr: "Webinaires",
 		ar: "البرامج المعيارية",
 	},
-	programs_card3_text: {
+	formats_card3_text: {
 		fr: "Cours en ligne en direct avec possibilité de poser des questions à des experts",
 		ar: "برامج قصيرة تركز على الممارسة والحالات الملموسة",
 	},
-	programs_card4_title: {
+	formats_card4_title: {
 		fr: "Programmes modulaires",
 		ar: "ندوات عبر الإنترنت",
 	},
-	programs_card4_text: {
+	formats_card4_text: {
 		fr: "Formation systématique, divisée en modules intégrables à votre emploi du temps",
 		ar: "برامج قصيرة تركز على الممارسة والحالات الملموسة",
 	},
-	programs_card5_title: {
+	formats_card5_title: {
 		fr: "Sessions de projet",
 		ar: "التشكيلات",
 	},
-	programs_card5_text: {
+	formats_card5_text: {
 		fr: "Travailler sur des problématiques d'entreprise réelles avec défense ultérieure de vos solutions",
 		ar: "برامج قصيرة تركز على الممارسة والحالات الملموسة",
 	},
-	programs_card_button: {
+	formats_card_button: {
 		fr: "Laisser une demande",
 		ar: "اترك طلبا",
 	},
