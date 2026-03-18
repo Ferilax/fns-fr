@@ -11,6 +11,7 @@ async function loadModules() {
 	import("./formats.js")
 	import("./accordion.js")
 	import("./modal.js")
+	import("./lang-switcher.js")
 }
 
 // Запускаем после загрузки DOM

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -29,8 +29,8 @@
 				</div>
 			</div>
 			<div class="right">
-				<button class="switch-language">fr</button>
-				<button class="send-application">Laisser une demande</button>
+				<button class="switch-language" data-lang-key="header_switcher" data-lang="ar">fr</button>
+				<button class="send-application" data-lang-key="header_button">Laisser une demande</button>
 				<a href="" class="profile">
 					<img src="img/icons/proifle.svg" alt="">
 				</a>
@@ -43,12 +43,11 @@
 			<div class="container">
 				<div class="content">
 					<h1 class="title">
-						<span class="_blue">Formation en entreprise</span> pour
-						<br>
-						les entreprises et le secteur public
+						<span class="_blue" data-lang-key="title_blue">Formation en entreprise</span>
+						<span data-lang-key="title_white">pour les entreprises et le secteur public</span>
 					</h1>
 					<div class="link">
-						<span class="link-text">Demander un devis</span>
+						<span class="link-text" data-lang-key="start_link">Demander un devis</span>
 						<a href="" class="link-button">
 							<img src="img/icons/arrow-link.svg" loading="lazy" alt="">
 						</a>
@@ -57,19 +56,19 @@
 					<div class="glass-points _desktop">
 						<article class="glass-point">
 							<img src="img/icons/search.svg" loading="lazy" alt="">
-							<span>Expertise du Service fédéral des impôts de Russie</span>
+							<span data-lang-key="start_glass_1">Expertise du Service fédéral des impôts de Russie</span>
 						</article>
 						<article class="glass-point">
 							<img src="img/icons/laptop.svg" loading="lazy" alt="">
-							<span>Formats d'apprentissage modernes</span>
+							<span data-lang-key="start_glass_2">Formats d'apprentissage modernes</span>
 						</article>
 						<article class="glass-point">
 							<img src="img/icons/mark.svg" loading="lazy" alt="">
-							<span>Adapté aux objectifs de votre organisation</span>
+							<span data-lang-key="start_glass_3">Adapté aux objectifs de votre organisation</span>
 						</article>
 						<article class="glass-point">
 							<img src="img/icons/document.svg" loading="lazy" alt="">
-							<span>Résultats mesurables et certification officielle</span>
+							<span data-lang-key="start_glass_4">Résultats mesurables et certification officielle</span>
 						</article>
 					</div>
 
@@ -78,19 +77,19 @@
 							<div class="splide__list">
 								<article class="splide__slide glass-point">
 									<img src="img/icons/search.svg" loading="lazy" alt="">
-									<span>Expertise du Service fédéral des impôts de Russie</span>
+									<span data-lang-key="start_glass_1">Expertise du Service fédéral des impôts de Russie</span>
 								</article>
 								<article class="splide__slide glass-point">
 									<img src="img/icons/laptop.svg" loading="lazy" alt="">
-									<span>Formats d'apprentissage modernes</span>
+									<span data-lang-key="start_glass_2">Formats d'apprentissage modernes</span>
 								</article>
 								<article class="splide__slide glass-point">
 									<img src="img/icons/mark.svg" loading="lazy" alt="">
-									<span>Adapté aux objectifs de votre organisation</span>
+									<span data-lang-key="start_glass_3">Adapté aux objectifs de votre organisation</span>
 								</article>
 								<article class="splide__slide glass-point">
 									<img src="img/icons/document.svg" loading="lazy" alt="">
-									<span>Résultats mesurables et certification officielle</span>
+									<span data-lang-key="start_glass_4">Résultats mesurables et certification officielle</span>
 								</article>
 							</div>
 						</div>
@@ -153,10 +152,12 @@
 
 		<section class="for-who">
 			<div class="container">
-				<h2 class="title">Pour qui</h2>
+				<h2 class="title" data-lang-key="forwho_title">Pour qui</h2>
 				<p class="text">
-					Nous développons des solutions pédagogiques pour les entreprises et le secteur public.
-					<span class="light">
+					<span data-lang-key="forwho_text_dark">
+						Nous développons des solutions pédagogiques pour les entreprises et le secteur public.
+					</span>
+					<span class="light" data-lang-key="forwho_text_light">
 						Nos programmes allient des formats d'apprentissage modernes et pratiques à l'expertise des experts du
 						Service fédéral des impôts et sont adaptés aux besoins spécifiques de votre organisation
 					</span>
@@ -166,51 +167,52 @@
 
 		<section class="advantages">
 			<div class="container">
-				<h2 class="title">Principaux avantages</h2>
+				<h2 class="title" data-lang-key="advantages_title">Principaux avantages</h2>
 				<div class="grid">
 					<article class="card">
 						<div class="card-number">(01)</div>
-						<h3 class="card-title">Expertise des experts <br> du Service fédéral des impôts</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="advantages_card1_title">Expertise des experts du Service fédéral des
+							impôts</h3>
+						<p class="card-text" data-lang-key="advantages_card1_text">
 							Les formations sont dispensées par des responsables et spécialistes du Service fédéral des impôts, qui
 							partagent des pratiques concrètes et des méthodes éprouvées
 						</p>
 					</article>
 					<article class="card">
 						<div class="card-number">(02)</div>
-						<h3 class="card-title">Adaptation aux besoins du client</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="advantages_card2_title">Adaptation aux besoins du client</h3>
+						<p class="card-text" data-lang-key="advantages_card2_text">
 							Chaque programme est développé individuellement, en tenant compte du secteur d'activité, du niveau des
 							employés et des objectifs organisationnels
 						</p>
 					</article>
 					<article class="card">
 						<div class="card-number">(03)</div>
-						<h3 class="card-title">Formules flexibles</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="advantages_card3_title">Formules flexibles</h3>
+						<p class="card-text" data-lang-key="advantages_card3_text">
 							Les modules en présentiel, les cours en ligne et les formats hybrides permettent aux employés de se
 							former au moment qui leur convient et depuis n'importe quelle région
 						</p>
 					</article>
 					<article class="card">
 						<div class="card-number">(04)</div>
-						<h3 class="card-title">Confirmation officielle</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="advantages_card4_title">Confirmation officielle</h3>
+						<p class="card-text" data-lang-key="advantages_card4_text">
 							À l'issue de la formation, les participants reçoivent un certificat ou un diplôme de niveau universitaire
 						</p>
 					</article>
 					<article class="card">
 						<div class="card-number">(05)</div>
-						<h3 class="card-title">Efficacité mesurable</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="advantages_card5_title">Efficacité mesurable</h3>
+						<p class="card-text" data-lang-key="advantages_card5_text">
 							Nous utilisons des tests, des retours d'expérience et des indicateurs de performance pour garantir que
 							le client puisse constater l'impact réel du programme
 						</p>
 					</article>
 					<article class="card">
 						<div class="card-number">(06)</div>
-						<h3 class="card-title">Accompagnement post-formation</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="advantages_card6_title">Accompagnement post-formation</h3>
+						<p class="card-text" data-lang-key="advantages_card6_text">
 							Nous accompagnons les diplômés : en leur donnant accès aux supports, en soutenant la communauté d'experts
 							et en les aidant à consolider leurs nouvelles compétences
 						</p>
@@ -222,48 +224,49 @@
 						<div class="splide__list">
 							<article class="splide__slide card">
 								<div class="card-number">(01)</div>
-								<h3 class="card-title">Expertise des experts <br> du Service fédéral des impôts</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="advantages_card1_title">Expertise des experts du Service fédéral
+									des impôts</h3>
+								<p class="card-text" data-lang-key="advantages_card1_text">
 									Les formations sont dispensées par des responsables et spécialistes du Service fédéral des impôts, qui
 									partagent des pratiques concrètes et des méthodes éprouvées
 								</p>
 							</article>
 							<article class="splide__slide card">
 								<div class="card-number">(02)</div>
-								<h3 class="card-title">Adaptation aux besoins du client</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="advantages_card2_title">Adaptation aux besoins du client</h3>
+								<p class="card-text" data-lang-key="advantages_card2_text">
 									Chaque programme est développé individuellement, en tenant compte du secteur d'activité, du niveau des
 									employés et des objectifs organisationnels
 								</p>
 							</article>
 							<article class="splide__slide card">
 								<div class="card-number">(03)</div>
-								<h3 class="card-title">Formules flexibles</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="advantages_card3_title">Formules flexibles</h3>
+								<p class="card-text" data-lang-key="advantages_card3_text">
 									Les modules en présentiel, les cours en ligne et les formats hybrides permettent aux employés de se
 									former au moment qui leur convient et depuis n'importe quelle région
 								</p>
 							</article>
 							<article class="splide__slide card">
 								<div class="card-number">(04)</div>
-								<h3 class="card-title">Confirmation officielle</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="advantages_card4_title">Confirmation officielle</h3>
+								<p class="card-text" data-lang-key="advantages_card4_text">
 									À l'issue de la formation, les participants reçoivent un certificat ou un diplôme de niveau
 									universitaire
 								</p>
 							</article>
 							<article class="splide__slide card">
 								<div class="card-number">(05)</div>
-								<h3 class="card-title">Efficacité mesurable</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="advantages_card5_title">Efficacité mesurable</h3>
+								<p class="card-text" data-lang-key="advantages_card5_text">
 									Nous utilisons des tests, des retours d'expérience et des indicateurs de performance pour garantir que
 									le client puisse constater l'impact réel du programme
 								</p>
 							</article>
 							<article class="splide__slide card">
 								<div class="card-number">(06)</div>
-								<h3 class="card-title">Accompagnement post-formation</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="advantages_card6_title">Accompagnement post-formation</h3>
+								<p class="card-text" data-lang-key="advantages_card6_text">
 									Nous accompagnons les diplômés : en leur donnant accès aux supports, en soutenant la communauté
 									d'experts
 									et en les aidant à consolider leurs nouvelles compétences
@@ -277,12 +280,12 @@
 
 		<section class="programs">
 			<div class="container">
-				<h2 class="title">Nos programmes pour</h2>
+				<h2 class="title" data-lang-key="programs_title">Nos programmes pour</h2>
 				<div class="grid">
 					<article class="card">
 						<img src="img/icons/internet.svg" alt="" class="card-icon" loading="lazy">
-						<h3 class="card-title">Administrations fiscales des pays amis</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="programs_card1_title">Administrations fiscales des pays amis</h3>
+						<p class="card-text" data-lang-key="programs_card1_text">
 							Échange d'expériences et adaptation des meilleures pratiques du Service fédéral des impôts de Russie aux
 							partenaires internationaux
 						</p>
@@ -293,8 +296,8 @@
 					</article>
 					<article class="card">
 						<img src="img/icons/map.svg" alt="" class="card-icon" loading="lazy">
-						<h3 class="card-title">Administrations régionales</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="programs_card2_title">Administrations régionales</h3>
+						<p class="card-text" data-lang-key="programs_card2_text">
 							Développement des ressources humaines et formation pour les spécialistes régionaux en gestion
 						</p>
 						<div class="card-file"></div>
@@ -304,8 +307,8 @@
 					</article>
 					<article class="card">
 						<img src="img/icons/graph.svg" alt="" class="card-icon" loading="lazy">
-						<h3 class="card-title">Entreprises</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="programs_card3_title">Entreprises</h3>
+						<p class="card-text" data-lang-key="programs_card3_text">
 							Développement des compétences des employés pour relever des défis commerciaux complexes
 						</p>
 						<div class="card-file"></div>
@@ -315,8 +318,8 @@
 					</article>
 					<article class="card">
 						<img src="img/icons/home.svg" alt="" class="card-icon" loading="lazy">
-						<h3 class="card-title">Banques et institutions financières</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="programs_card4_title">Banques et institutions financières</h3>
+						<p class="card-text" data-lang-key="programs_card4_text">
 							Programmes de fiscalité, de conformité et de compétences managériales
 						</p>
 						<div class="card-file"></div>
@@ -326,8 +329,8 @@
 					</article>
 					<article class="card">
 						<img src="img/icons/home-2.svg" alt="" class="card-icon" loading="lazy">
-						<h3 class="card-title">Grandes entreprises</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="programs_card5_title">Grandes entreprises</h3>
+						<p class="card-text" data-lang-key="programs_card5_text">
 							Solutions de formation sectorielles : fiscalité, finance, informatique et sécurité
 						</p>
 						<div class="card-file"></div>
@@ -337,8 +340,8 @@
 					</article>
 					<article class="card">
 						<img src="img/icons/wallet.svg" alt="" class="card-icon" loading="lazy">
-						<h3 class="card-title">Secteur public</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="programs_card6_title">Secteur public</h3>
+						<p class="card-text" data-lang-key="programs_card6_text">
 							Formation pour les administrations fédérales et régionales en gestion, numérisation et marchés publics
 						</p>
 						<div class="card-file"></div>
@@ -352,8 +355,8 @@
 						<div class="splide__list">
 							<article class="splide__slide card">
 								<img src="img/icons/internet.svg" alt="" class="card-icon" loading="lazy">
-								<h3 class="card-title">Administrations fiscales des pays amis</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="programs_card1_title">Administrations fiscales des pays amis</h3>
+								<p class="card-text" data-lang-key="programs_card1_text">
 									Échange d'expériences et adaptation des meilleures pratiques du Service fédéral des impôts de Russie
 									aux
 									partenaires internationaux
@@ -365,8 +368,8 @@
 							</article>
 							<article class="splide__slide card">
 								<img src="img/icons/map.svg" alt="" class="card-icon" loading="lazy">
-								<h3 class="card-title">Administrations régionales</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="programs_card2_title">Administrations régionales</h3>
+								<p class="card-text" data-lang-key="programs_card2_text">
 									Développement des ressources humaines et formation pour les spécialistes régionaux en gestion
 								</p>
 								<div class="card-file"></div>
@@ -376,8 +379,8 @@
 							</article>
 							<article class="splide__slide card">
 								<img src="img/icons/graph.svg" alt="" class="card-icon" loading="lazy">
-								<h3 class="card-title">Entreprises</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="programs_card3_title">Entreprises</h3>
+								<p class="card-text" data-lang-key="programs_card3_text">
 									Développement des compétences des employés pour relever des défis commerciaux complexes
 								</p>
 								<div class="card-file"></div>
@@ -387,8 +390,8 @@
 							</article>
 							<article class="splide__slide card">
 								<img src="img/icons/home.svg" alt="" class="card-icon" loading="lazy">
-								<h3 class="card-title">Banques et institutions financières</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="programs_card4_title">Banques et institutions financières</h3>
+								<p class="card-text" data-lang-key="programs_card4_text">
 									Programmes de fiscalité, de conformité et de compétences managériales
 								</p>
 								<div class="card-file"></div>
@@ -398,8 +401,8 @@
 							</article>
 							<article class="splide__slide card">
 								<img src="img/icons/home-2.svg" alt="" class="card-icon" loading="lazy">
-								<h3 class="card-title">Grandes entreprises</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="programs_card5_title">Grandes entreprises</h3>
+								<p class="card-text" data-lang-key="programs_card5_text">
 									Solutions de formation sectorielles : fiscalité, finance, informatique et sécurité
 								</p>
 								<div class="card-file"></div>
@@ -409,8 +412,8 @@
 							</article>
 							<article class="splide__slide card">
 								<img src="img/icons/wallet.svg" alt="" class="card-icon" loading="lazy">
-								<h3 class="card-title">Secteur public</h3>
-								<p class="card-text">
+								<h3 class="card-title" data-lang-key="programs_card6_title">Secteur public</h3>
+								<p class="card-text" data-lang-key="programs_card6_text">
 									Formation pour les administrations fédérales et régionales en gestion, numérisation et marchés publics
 								</p>
 								<div class="card-file"></div>
@@ -426,57 +429,57 @@
 
 		<section class="formats">
 			<div class="container">
-				<h2 class="title">Formats de formation</h2>
+				<h2 class="title" data-lang-key="formats_title">Formats de formation</h2>
 				<div class="flex">
 					<article class="card _active">
-						<h3 class="card-title">Cours intensifs</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="formats_card1_title">Cours intensifs</h3>
+						<p class="card-text" data-lang-key="formats_card1_text">
 							Programmes courts axés sur la pratique et les cas concrets
 						</p>
 						<a href="" class="card-button">
 							<img src="img/icons/plus.svg" loading="lazy" alt="">
-							<span>Laisser une demande</span>
+							<span data-lang-key="programs_card_button">Laisser une demande</span>
 						</a>
 					</article>
 					<article class="card">
-						<h3 class="card-title">Formations</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="formats_card2_title">Formations</h3>
+						<p class="card-text" data-lang-key="formats_card2_text">
 							Mise en pratique de compétences spécifiques grâce à des exercices, des jeux d'entreprise
 							et des simulations de situations professionnelles
 						</p>
 						<a href="" class="card-button">
 							<img src="img/icons/plus.svg" loading="lazy" alt="">
-							<span>Laisser une demande</span>
+							<span data-lang-key="programs_card_button">Laisser une demande</span>
 						</a>
 					</article>
 					<article class="card">
-						<h3 class="card-title">Webinaires</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="formats_card3_title">Webinaires</h3>
+						<p class="card-text" data-lang-key="formats_card3_text">
 							Cours en ligne en direct avec possibilité de poser des questions à des experts
 						</p>
 						<a href="" class="card-button">
 							<img src="img/icons/plus.svg" loading="lazy" alt="">
-							<span>Laisser une demande</span>
+							<span data-lang-key="programs_card_button">Laisser une demande</span>
 						</a>
 					</article>
 					<article class="card">
-						<h3 class="card-title">Programmes modulaires</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="formats_card4_title">Programmes modulaires</h3>
+						<p class="card-text" data-lang-key="formats_card4_text">
 							Formation systématique, divisée en modules intégrables à votre emploi du temps
 						</p>
 						<a href="" class="card-button">
 							<img src="img/icons/plus.svg" loading="lazy" alt="">
-							<span>Laisser une demande</span>
+							<span data-lang-key="programs_card_button">Laisser une demande</span>
 						</a>
 					</article>
 					<article class="card">
-						<h3 class="card-title">Sessions de projet</h3>
-						<p class="card-text">
+						<h3 class="card-title" data-lang-key="formats_card5_title">Sessions de projet</h3>
+						<p class="card-text" data-lang-key="formats_card5_text">
 							Travailler sur des problématiques d'entreprise réelles avec défense ultérieure de vos solutions
 						</p>
 						<a href="" class="card-button">
 							<img src="img/icons/plus.svg" loading="lazy" alt="">
-							<span>Laisser une demande</span>
+							<span data-lang-key="programs_card_button">Laisser une demande</span>
 						</a>
 					</article>
 				</div>
@@ -485,14 +488,14 @@
 
 		<section class="steps">
 			<div class="container">
-				<h2 class="title">Étapes de développement <br> du programme d'entreprise</h2>
+				<h2 class="title" data-lang-key="steps_title">Étapes de développement du programme d'entreprise</h2>
 
 				<div class="grid">
 					<div class="flex">
 						<article class="card first">
 							<span class="card-count">(01)</span>
-							<h3 class="card-title">Évaluation <br> des besoins</h3>
-							<p class="card-text">
+							<h3 class="card-title" data-lang-key="steps_card1_title">Évaluation des besoins</h3>
+							<p class="card-text" data-lang-key="steps_card1_text">
 								Nous collaborons avec le client pour définir les objectifs de l'entreprise ou de l'organisme
 								gouvernemental et analyser le niveau actuel de compétences des employés
 							</p>
@@ -505,16 +508,17 @@
 							<div class="flex">
 								<article class="card second">
 									<span class="card-count">(02)</span>
-									<h3 class="card-title">Conception <br> du programme</h3>
-									<p class="card-text">
+									<h3 class="card-title" data-lang-key="steps_card2_title">Conception du programme</h3>
+									<p class="card-text" data-lang-key="steps_card2_text">
 										Nous élaborons le programme et le contenu des modules, en adaptant les supports aux spécificités du
 										secteur et au niveau des participants
 									</p>
 								</article>
 								<article class="card third">
 									<span class="card-count">(03)</span>
-									<h3 class="card-title">Organisation du processus <br> d'apprentissage</h3>
-									<p class="card-text">
+									<h3 class="card-title" data-lang-key="steps_card3_title">Organisation du processus d'apprentissage
+									</h3>
+									<p class="card-text" data-lang-key="steps_card3_text">
 										Nous sélectionnons les experts et les formateurs, fournissons aux étudiants le matériel pédagogique,
 										l'accès en ligne et l'infrastructure (salles de classe, simulateurs numériques, simulations)
 									</p>
@@ -524,8 +528,8 @@
 							<div class="flex">
 								<article class="card fourth">
 									<span class="card-count">(04)</span>
-									<h3 class="card-title">Mise en œuvre <br> du programme</h3>
-									<p class="card-text">
+									<h3 class="card-title" data-lang-key="steps_card4_title">Mise en œuvre du programme</h3>
+									<p class="card-text" data-lang-key="steps_card4_text">
 										Nous créons une communauté d'anciens élèves, offrons un accès à des supports actualisés et un
 										soutien
 										aux experts
@@ -533,8 +537,8 @@
 								</article>
 								<article class="card fifth">
 									<span class="card-count">(05)</span>
-									<h3 class="card-title">Évaluation des <br> résultats</h3>
-									<p class="card-text">
+									<h3 class="card-title" data-lang-key="steps_card5_title">Évaluation des résultats</h3>
+									<p class="card-text" data-lang-key="steps_card5_text">
 										Nous suivons l'assiduité et les progrès, utilisons des tests, des études de cas et effectuons
 										l'évaluation finale
 									</p>
@@ -549,16 +553,16 @@
 					<div class="flex">
 						<article class="card sixth">
 							<span class="card-count">(06)</span>
-							<h3 class="card-title">Retour d'information <br> et amélioration</h3>
-							<p class="card-text">
+							<h3 class="card-title" data-lang-key="steps_card6_title">Retour d'information et amélioration</h3>
+							<p class="card-text" data-lang-key="steps_card6_text">
 								Nous recueillons les retours des étudiants, analysons le NPS et la qualité de l'enseignement,
 								et formulons des recommandations pour le développement futur
 							</p>
 						</article>
 						<article class="card seventh">
 							<span class="card-count">(07)</span>
-							<h3 class="card-title">Accompagnement <br> post-programme</h3>
-							<p class="card-text">
+							<h3 class="card-title" data-lang-key="steps_card7_title">Accompagnement post-programme</h3>
+							<p class="card-text" data-lang-key="steps_card7_text">
 								Nous créons une communauté d'anciens élèves, fournissons un accès à des supports actualisés et soutenons
 								les experts afin que les connaissances soient consolidées dans la pratique
 							</p>
@@ -574,20 +578,20 @@
 
 		<section class="cases">
 			<div class="container">
-				<h2 class="title">Étude de cas</h2>
+				<h2 class="title" data-lang-key="cases_title">Étude de cas</h2>
 				<div class="flex">
 					<article class="card tj-modal-trigger">
-						<h3 class="card-title">
-							Formation de spécialistes <br> des services fiscaux au Tadjikistan
+						<h3 class="card-title" data-lang-key="cases_card1_title">
+							Formation de spécialistes des services fiscaux au Tadjikistan
 						</h3>
-						<div class="card-tag">Laisser une demande</div>
+						<div class="card-tag" data-lang-key="cases_card_button">Laisser une demande</div>
 						<img class="card-bg" src="img/cases/1.webp" loading="lazy" alt="">
 					</article>
 					<article class="card uz-modal-trigger">
-						<h3 class="card-title">
-							Formation de spécialistes <br> des services fiscaux d’Ouzbékistan
+						<h3 class="card-title" data-lang-key="cases_card2_title">
+							Formation des spécialistes des services fiscaux d’Ouzbékistan
 						</h3>
-						<div class="card-tag">Laisser une demande</div>
+						<div class="card-tag" data-lang-key="cases_card_button">Laisser une demande</div>
 						<img class="card-bg" src="img/cases/2.webp" loading="lazy" alt="">
 					</article>
 				</div>
@@ -596,19 +600,20 @@
 
 		<section class="partners">
 			<div class="container">
-				<h2 class="title">Nos partenaires</h2>
+				<h2 class="title" data-lang-key="partners_title">Nos partenaires</h2>
 				<div class="flex">
 					<article class="card">
 						<img src="img/partners/1.png" loading="lazy" alt="">
-						<h3 class="card-title">Service fédéral <br> des impôts de Russie</h3>
+						<h3 class="card-title" data-lang-key="partners_card1">Service fédéral des impôts de Russie</h3>
 					</article>
 					<article class="card">
 						<img src="img/partners/2.png" loading="lazy" alt="">
-						<h3 class="card-title">Comité des impôts <br> de la République d'Ouzbékistan</h3>
+						<h3 class="card-title" data-lang-key="partners_card2">Comité des impôts de la République d'Ouzbékistan</h3>
 					</article>
 					<article class="card">
 						<img src="img/partners/3.png" loading="lazy" alt="">
-						<h3 class="card-title">Comité des impôts du gouvernement de la République du Tadjikistan</h3>
+						<h3 class="card-title" data-lang-key="partners_card3">Comité des impôts du gouvernement de la République du
+							Tadjikistan</h3>
 					</article>
 				</div>
 			</div>
@@ -616,14 +621,14 @@
 
 		<section class="curateurs">
 			<div class="container">
-				<h2 class="title">Principaux avantages</h2>
+				<h2 class="title" data-lang-key="curateurs_title">Principaux avantages</h2>
 				<div class="row">
 					<article class="card">
 						<div class="card-avatar">
 							<img src="img/avatar-1.png" loading="lazy" alt="">
 						</div>
-						<div class="card-name">Vasily <br> Semenovich Novikov</div>
-						<span class="card-status">
+						<div class="card-name" data-lang-key="curateurs_card1_name">Vasily Semenovich Novikov</div>
+						<span class="card-status" data-lang-key="curateurs_card1_status">
 							Professeur honoraire, Docteur en sciences médicales, Scientifique émérite de la Fédération de Russie
 						</span>
 					</article>
@@ -631,18 +636,19 @@
 						<div class="card-avatar">
 							<img src="img/avatar-2.png" loading="lazy" alt="">
 						</div>
-						<div class="card-name">Valentina <br> Anatolyevna Koryazina</div>
-						<span class="card-status">
+						<div class="card-name" data-lang-key="curateurs_card2_name">Valentina Anatolyevna Koryazina</div>
+						<span class="card-status" data-lang-key="curateurs_card2_status">
 							Professeure honoraire, Conseillère d'État de la Fédération de Russie, 2e classe, Économiste émérite
 							de la Fédération de Russie
 						</span>
+						<br>
 					</article>
 					<article class="card">
 						<div class="card-avatar">
 							<img src="img/avatar-3.png" loading="lazy" alt="">
 						</div>
-						<div class="card-name">Vladimir <br> Vasilyevich Gusev</div>
-						<span class="card-status">
+						<div class="card-name" data-lang-key="curateurs_card3_name">Vladimir Vasilyevich Gusev</div>
+						<span class="card-status" data-lang-key="curateurs_card3_status">
 							Professeur honoraire, Candidat en sciences économiques, Maître de conférences, Économiste émérite de la
 							Fédération de Russie
 						</span>
@@ -651,8 +657,8 @@
 						<div class="card-avatar">
 							<img src="img/avatar-4.png" loading="lazy" alt="">
 						</div>
-						<div class="card-name">Alexander <br> Viktorovich Gnedykh</div>
-						<span class="card-status">
+						<div class="card-name" data-lang-key="curateurs_card4_name">Alexander Viktorovich Gnedykh</div>
+						<span class="card-status" data-lang-key="curateurs_card4_status">
 							Professeur honoraire, Conseiller d'État de la Fédération de Russie, 2e classe, Chef du Service fédéral des
 							impôts de Russie pour Saint-Pétersbourg
 						</span>
@@ -664,7 +670,7 @@
 		<section class="formation splide" id="formation_splide">
 			<div class="container">
 				<div class="head">
-					<h2 class="title">Où se déroule la formation</h2>
+					<h2 class="title" data-lang-key="formation_title">Où se déroule la formation</h2>
 					<div class="splide__arrows">
 						<button class="splide__arrow splide__arrow--prev">
 							<img src="img/icons/arrow-left.svg" loading="lazy" alt="">
@@ -679,11 +685,11 @@
 					<div class="splide__list">
 						<section class="splide__slide flex">
 							<div class="left">
-								<h3 class="subtitle">Neva</h3>
-								<h4 class="big">
+								<h3 class="subtitle" data-lang-key="formation_slide1_title">Neva</h3>
+								<h4 class="big" data-lang-key="formation_slide1_subtitle">
 									Le principal centre de formation du Laboratoire du Service fédéral des impôts de Saint-Pétersbourg
 								</h4>
-								<p class="text">
+								<p class="text" data-lang-key="formation_slide1_text">
 									Il comprend deux bâtiments universitaires. Le campus dispose de salles de classe modernes, de
 									salles
 									informatiques, d'une bibliothèque et d'infrastructures pour les modules en présentiel, les
@@ -725,21 +731,24 @@
 								<div class="points">
 									<div class="point">
 										<img src="img/icons/map-white.svg" loading="lazy" alt="">
-										<span>Bâtiment universitaire 1 : 10, rue Torzhkovskaya</span>
+										<span data-lang-key="formation_slide1_point1">Bâtiment universitaire 1 : 10, rue
+											Torzhkovskaya</span>
 									</div>
 									<div class="point">
 										<img src="img/icons/map-white.svg" loading="lazy" alt="">
-										<span>Bâtiment universitaire 2 : 9, rue Kostyushko</span>
+										<span data-lang-key="formation_slide1_point2">Bâtiment universitaire 2 : 9, rue Kostyushko</span>
 									</div>
 									<div class="point">
 										<img src="img/icons/map-white.svg" loading="lazy" alt="">
 										<div>
-											<span class="point-big">Du lundi au vendredi, de 9h à 18h</span>
-											<span>samedi et dimanche, selon les horaires des activités pédagogiques</span>
+											<span class="point-big" data-lang-key="formation_slide1_point3_big">Du lundi au vendredi, de 9h à
+												18h</span>
+											<span data-lang-key="formation_slide1_point3_small">samedi et dimanche, selon les horaires des
+												activités pédagogiques</span>
 										</div>
 									</div>
 								</div>
-								<button class="button">Laisser une demande</button>
+								<button class="button" data-lang-key="programs_card_button">Laisser une demande</button>
 							</div>
 
 							<div class="right _desktop">
@@ -782,8 +791,9 @@
 			<div class="container">
 				<div class="flex">
 					<div class="left">
-						<h2 class="title">Vous souhaitez en savoir plus sur notre format d'entreprise ?</h2>
-						<p class="text">
+						<h2 class="title" data-lang-key="form_title">Vous souhaitez en savoir plus sur notre format d'entreprise ?
+						</h2>
+						<p class="text" data-lang-key="form_text">
 							Demandez une consultation ; l'équipe de l'Académie vous contactera pendant les heures ouvrables pour
 							répondre à toutes vos questions sur les possibilités de formation
 						</p>
@@ -791,22 +801,24 @@
 							<div class="profile-avatar">
 								<img src="img/avatar.png" loading="lazy" alt="">
 							</div>
-							<div class="profile-name">Prénom Nom</div>
-							<div class="profile-status">Responsable de compte entreprise</div>
+							<div class="profile-name" data-lang-key="form_profile_name">Prénom Nom</div>
+							<div class="profile-status" data-lang-key="form_profile_status">Responsable de compte entreprise</div>
 						</div>
 					</div>
 
 					<form class="right">
 						<div class="inputs">
-							<input type="text" required class="component_input" placeholder="Prénom *">
-							<input type="text" required class="component_input" placeholder="Nom *">
-							<input type="text" required class="component_input" placeholder="Pays *">
-							<input type="text" required class="component_input" placeholder="Ville *">
-							<input type="text" required class="component_input" placeholder="Organisation *">
-							<input type="text" required class="component_input" placeholder="Votre fonction *">
-							<input type="email" required class="component_input" placeholder="E-mail *">
-							<input type="tel" required class="component_input" placeholder="Téléphone *">
-							<input type="text" required class="component_input" placeholder="Question">
+							<input type="text" required class="component_input" placeholder="Prénom *" data-lang-key="form_input1">
+							<input type="text" required class="component_input" placeholder="Nom *" data-lang-key="form_input2">
+							<input type="text" required class="component_input" placeholder="Pays *" data-lang-key="form_input3">
+							<input type="text" required class="component_input" placeholder="Ville *" data-lang-key="form_input4">
+							<input type="text" required class="component_input" placeholder="Organisation *"
+								data-lang-key="form_input5">
+							<input type="text" required class="component_input" placeholder="Votre fonction *"
+								data-lang-key="form_input6">
+							<input type="email" required class="component_input" placeholder="E-mail *" data-lang-key="form_input7">
+							<input type="tel" required class="component_input" placeholder="Téléphone *" data-lang-key="form_input8">
+							<input type="text" required class="component_input" placeholder="Question" data-lang-key="form_input9">
 						</div>
 
 						<div class="checkboxes">
@@ -814,17 +826,18 @@
 								<label class="component_checkbox">
 									<input type="checkbox" checked required>
 								</label>
-								<span>Je consens au traitement de mes données personnelles *</span>
+								<span data-lang-key="form_checkbox1">Je consens au traitement de mes données personnelles *</span>
 							</div>
 							<div class="checkbox">
 								<label class="component_checkbox">
 									<input type="checkbox">
 								</label>
-								<span>J'accepte de recevoir les newsletters promotionnelles et informatives de la FTS LAB Academy</span>
+								<span data-lang-key="form_checkbox2">J'accepte de recevoir les newsletters promotionnelles et
+									informatives de la FTS LAB Academy</span>
 							</div>
 						</div>
 
-						<button class="submit" type="submit">Laisser une demande</button>
+						<button class="submit" type="submit" data-lang-key="programs_card_button">Laisser une demande</button>
 					</form>
 				</div>
 			</div>
@@ -832,12 +845,12 @@
 
 		<section class="faq">
 			<div class="container">
-				<h2 class="title">Foire aux questions</h2>
+				<h2 class="title" data-lang-key="faq_title">Foire aux questions</h2>
 
 				<div class="accordions">
 					<article class="accordion">
 						<div class="accordion__q accordion__trigger">
-							<span>Combien cela coûte-t-il ?</span>
+							<span data-lang-key="faq_q1_title">Combien cela coûte-t-il ?</span>
 							<button>
 								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M34 6L6 34M6 34H27M6 34V13" stroke="#363636" stroke-opacity="0.5" stroke-width="2"
@@ -846,7 +859,7 @@
 							</button>
 						</div>
 						<div class="accordion__a">
-							<div class="accordion__content">
+							<div class="accordion__content" data-lang-key="faq_q1_text">
 								The training is conducted by current managers and specialists of the Federal Tax Service, sharing
 								real-world practices and proven methods.
 							</div>
@@ -854,7 +867,7 @@
 					</article>
 					<article class="accordion">
 						<div class="accordion__q accordion__trigger">
-							<span>Combien de personnes composent un groupe ?</span>
+							<span data-lang-key="faq_q2_title">Combien de personnes composent un groupe ?</span>
 							<button>
 								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M34 6L6 34M6 34H27M6 34V13" stroke="#363636" stroke-opacity="0.5" stroke-width="2"
@@ -863,7 +876,7 @@
 							</button>
 						</div>
 						<div class="accordion__a">
-							<div class="accordion__content">
+							<div class="accordion__content" data-lang-key="faq_q2_text">
 								The training is conducted by current managers and specialists of the Federal Tax Service, sharing
 								real-world practices and proven methods.
 							</div>
@@ -871,7 +884,7 @@
 					</article>
 					<article class="accordion">
 						<div class="accordion__q accordion__trigger">
-							<span>Est-il possible de le faire en ligne ?</span>
+							<span data-lang-key="faq_q3_title">Est-il possible de le faire en ligne ?</span>
 							<button>
 								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M34 6L6 34M6 34H27M6 34V13" stroke="#363636" stroke-opacity="0.5" stroke-width="2"
@@ -880,7 +893,7 @@
 							</button>
 						</div>
 						<div class="accordion__a">
-							<div class="accordion__content">
+							<div class="accordion__content" data-lang-key="faq_q3_text">
 								The training is conducted by current managers and specialists of the Federal Tax Service, sharing
 								real-world practices and proven methods.
 							</div>
@@ -888,7 +901,8 @@
 					</article>
 					<article class="accordion">
 						<div class="accordion__q accordion__trigger">
-							<span>Quels sont les délais de réalisation d'un développement personnalisé ?</span>
+							<span data-lang-key="faq_q4_title">Quels sont les délais de réalisation d'un développement personnalisé
+								?</span>
 							<button>
 								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M34 6L6 34M6 34H27M6 34V13" stroke="#363636" stroke-opacity="0.5" stroke-width="2"
@@ -897,7 +911,7 @@
 							</button>
 						</div>
 						<div class="accordion__a">
-							<div class="accordion__content">
+							<div class="accordion__content" data-lang-key="faq_q4_text">
 								The training is conducted by current managers and specialists of the Federal Tax Service, sharing
 								real-world practices and proven methods.
 							</div>
@@ -910,7 +924,7 @@
 		<svg style="display: none">
 			<filter id="displacementFilter">
 				<feImage
-					href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAMoElEQVRogZ1a3ZqjyI6MkBJc3XOz7/+g+53pMoq9kJQk2K6Zs0yNGzAG/YRCSgn+/r0PYpCD2IEH+SC/yIdZfj6MD9pu3M02cjMb5KC50cycNBoJ0kiCJKn8BEWCACgCAkAAIAhQAGAAIRccNGIDBjCADdilHdilh/QAH9AX+DA+yN1sM9vAYRw2SIKg1dNJkm61Y0YzGkmDGc1A0og8JEGT1Q1gBCkQJEgArENgCi4QFDR1AABIAEEJggAIECRJogBJeblIkLK0AUEOjpQUBMzMyPk/naTRUvTUgTQDjWZESmxgfgJGIA8poE62+HNHvSeJedzngdYgZZaASNepr1HelgQhYthuhjKrpaBmrP+MZuUHt9IqP9mKWnkEZiAxzc8UkgQFkDzFLAeohZJw7qh3InRAIYYUQAhBCOVStauHbaTBQXMaPWV2L4Sb08ytxPUS1wxmaftohIEX0QkT076Fe1UcZExISB3Uhp3Ctw9CSt0i2jMSKCKmP4nBB70AYsbEudtwcx++DR/DbJi7mafh6WVs2sSPQJql+Zmxm9Y/kVPSsw1OlB/K3gIhEwI4ICqDO47QM8Lj2BShCFHMCEnTaPhXYd5TBXN3H2N/7PtjezzG/nDfzDe6kw66+cRQBsQKfaSLK2RXBU6Y84SSFtwrhCOjNcULAaEIHId/f38f37tCoQAEBCBQ0uCXO+E0N7rb5j58e+y/f339/v3462t7bDaGuTMZkwZ6RgBIEvk50d/Si1DGMi8KqHVicc8ZstEIknBAh3Aojjjw/Obzb/v7z/78ez9CVAhKiAHDv8qYLPSPfX/8+vX719f//Nr/2rd9s+FWdOPNWCk9KzpZzM7Cjdr2J0+CnPSji+yEAATAPqeCO0IRccTzie9tH//7/A+ex98hISoeAhr2SCah08wSPV/7778eX3899t/DNrdJnMVXGapW4hbceSLnZP4VP9P20jw76afUUAMqACkkQYPb+OP8j8WXjnhGxHFECBQEcPCr2JFGp49tG4992x/742GeadcIFNXgBE3zQJ1sE99wX0Q/sbXkrsvRCa+ZCxonh/jc9Y3vZ4yDT4UiEJLIkIZ9mYFmNtLGw20bY9vMh/mocAVViM/Yb7uDInlyJRfEL9C/RO881HJGEFtZQJnBLc8LDBwxxrF7wCNiZmmBw3abGcvo5u6bcTg9MzEh4sXkrUMVBLwY/oV83m7pNgEpO1sNZDSUtWAZL6ag3GKjghIVRabDdzeaZx6AmRs35yCsLTq5pUHPhW1O/LwXnauVr1t7RQuvcuYHAKpUSIYgMzkhyiAwQkWjtruDltUlRuZf+qx/WCiZ9cdCO9OQn23fmp940eUrCMwgpgArNVQRiqo5YJBn8UGJQEAsCPnmDnoXOk7H8CQm2Mru09LzD1cs/ajAaXV79cUstZupqoA6CcsIIZyiEIiqMxJCw410ZJ5y0tyJTrbT0h20L9J/9MNVE85/rrFbUs4I4HpeVXJKAVlWIQxrjpJEDPOytlkyvaOL0AUti7icKt00WSR+5SKhi5eVTtdMrdUH0kJveRElL29nJi4P2Kh1SqcqTvzwLmsF9Sn0xwC4UdDbzHaTm7WqqeDOmpuiQCIaRVVr5dIHQHmgFlqmWqmwFll5La/QZ+P61Q/9mUkNpzxX2c8lzZReaJOvsdCHygVAUAYJwUxzDGDQ5wLRDEZ5umHlnKvtL5iZCe6uxksk36XXTb1Xn+R9VKkzuSgoEmZSZOk0LFcyuSYrD3T4LtIvbHMR9L0H3oTvi+3Lf1otnd92NPfCIRc7hGSy6hXUugwYtQyWmVmulgm78D1XWW5S/iD9HezvtlfpZ3CXDmWlJCMjZAELSvAswIeZTfxkAjtDtrI9X2RdDf9WsZv9Lwb+IDcnVXE9vER/rvVy0Vc5wgzu8FMHeHqA5++4yLJq8rMTbpd90vPyqeVQ19/OsiI/xVozDaMbaLLsmWR3oYJmeeQ1Kv9RxJsf5vaD7W/kc95B/XlKn9eQgHJ9PkU3g6E8cIoyeeaKnFWTH3b+q1D5IXJOL6kWxBRg7GZVU03uGLhQp2636SB58+BXV9xUvetzWyq8/Xk7YWny9WaE5anknyyrVgy+M+fbJ93M/Oknr9sPqHvxku7ONCBbUGwdzr+K/PePfCv6W7F+UO9ywZuc9vLzeU35ROgYmDpk1/WN+f/l9paLflCPL6fOMwu6lLUbs4brOABglKXQldl62f7JBv8k+n+98ePRHauq/kXvIxWoFmGmYauerz5J/BoDc9PLlf8k7Rs/XPsU77cmeBGAUYQKQiV9k8+rT3/cbpe9fbxeD/Xm/PvnMoXXSYwUzJr1iTlamYy7pvJ/3N4uFOff/2Ob04OWWK8eaw6d31GmPqTeWv+tl+/08Gnh+7r/zxZqSjmlLLUEcXRqarqYJe3lQe+f8qKgfoyKtzp8MsFlu4ZdO0UkZZgeOlsCuCpx2X138hXZPwfAv0fUTKtYhWq6zPCtb7he11HwD0Lw5cz1UJ8NfH7qZyeUDDUUnAzTa1blWOUknHzmOVJ70eEDRG5i3aDy0fYXTjnFAq5wB9AzsbZtMiY1ijKN6hblyaB97+Ve1XA6EyT4Y0n8ul2Uud58VeyycyV1nRASLBXJYpt2XQW8mutFgs+k9IlVbzv3Gy6EeOqmU/pe8mbdbBhFpPOurGKjdU87lYG7WwNBOX2vFSBnUEwP4IMTrvpXE1TvKPvs5FNIwukUm01zGDBy7Jfd1e43anJv31arC+uwwr+/Onmre5pamw7vdVjgevfJ+txqRVmPPxMvIsAhx5nS1U3hALITebFKD0bvlsbd8BcS+yj9y7darFAgWNfm2U8x5mqrwD7gU/wUUTUwj1sqTqtnHJ9d2G4itL2n7d6IfhX0JLv3V5Zz2HFnVXUmU3bvhINeaqdzJPEQONvgN0yfcXU+pn/auJrS/FjecbJQBcPCp7XPs0gQTTVZN/asUSQGvSdb1TVtrUO3x7bNl4nQyaq44Gr96RrPd1C9wImn9OdTa34LmuiiJ51EQYhb1qHdwIq2ztoau2eAoiau2p3Mpbvpb85YvMSrDpwj5v66gQQ6MECHeQ6ZSMCoga3SQiKfQQAIQmd1NAclyoyIOdW9RsgFJG9TyXLBawDwclkzppj8YzIXh+DZfcjFlw2NnJaVDnFAgELIt0Im68xIPcXFkk3/fQSvoresN33WZk5lAdDB0X+A2cwDe1JP5i/CJECHEksFHS3PzmUGm4h068JqccZE1HL+1SFr3F/VKD8Q5qmAbAcd3UAXwIGHEMzkq5CegqQnFKpUgJo9vFD/VeiLGlex1mi+A+ZF9NlcQOEaBpg4xB3cZCNbo6kDB/bm5chJpwKBI6QIhcmkGvEscvfsKSPijt77diEprqGPnsqAKFqsHEhgzvgsfMi2sE22ywaybCNAw+DeHkvMuALHoe8Dw2k6OqwZC7+tcQzcC5nGUI3dsfiIa52FHmrPYE2TlAsV2bEaI3w8t8cxHoc/wAFI9Gq0D37RauhBShrS0GHHk9/m8OdQ0MFDsE4UBEw43wZIyS4R/NEPtd+/5Aqk2VojDNnmj0GN7bnvf/Zff7avw7fDh5w01GuSg49eKgQA46E4jm//5gb+ifh+ejBkFhXQJhgQoqWZZqu76sEzF826SZp+KKyzxZ3Qz4ZUNacgJ5wYjM31tT9/7X++Ht/b4+kuOskga4w3+EVEY0OKgAmxP78fwvMYTzuCLrhgwXrzol8ctO71sVj4bMovpYYWQBHz336jlN0ezL6aQ8MwKCc2xu56+PPXFvv2HEOVELrhT8PQXgFTr6+IEXHsxHEwQgc8KEABE0aVLTAxXxJL+J3NvJM/EiWFk7N866ivV0t7oIKckEKDGIQzdtcG7B4P0/AYLmOQSPTnRIPkwKOKgswDqnqUETpCQL2JR5ChrFBTn9RWUivASvqauGoU9QtAlRNmbZPrlLJ9v5QLGTEMngHgcmKYzETO+VdOISlhxKNeAGE6PtOWInkpJ+IUQjLNfKekpXRFLbVbh8XOXX0vyOl1d2eMjKosgZofsnYAROtpmFULEcsMGDASQ3t6WpbLmJyCZySklFAIEcpXOxkpgBigGIBJyPqql4d5p+aXtUaizhfCiX7Pes7UaSJIE7C8nFrXdAPU5uyCAIe2IoyADMwJeOK7DV+LnNyvMjtfyy78GM7XPc/grXeje2mFfqdO6CbURRLAquggOeXukJ2pF0V4pwIjpotzdFw4yUIi+iXIwo9KpWg+73FDgUL9YnSTEdfVLuv1MhE2XyrlJCXjgiLU6AXovAsqybPKAlHA/wH75uVy+EFM3wAAAABJRU5ErkJggg=="
+					href="data:image/png;base64,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"
 					preserveAspectRatio="none" />
 
 				<feDisplacementMap in="SourceGraphic" in2="turbulence" scale="600" xChannelSelector="R" yChannelSelector="G" />
@@ -922,8 +936,12 @@
 		<div class="modal__content">
 			<div class="head">
 				<div class="title-and-subtitle">
-					<h2 class="title">Formation de spécialistes des services fiscaux au Tadjikistan</h2>
-					<h3 class="subtitle">Comité fiscal du gouvernement de la République du Tadjikistan</h3>
+					<h2 class="title" data-lang-key="cases_modal1_title">
+						Formation de spécialistes des services fiscaux au Tadjikistan
+					</h2>
+					<h3 class="subtitle" data-lang-key="cases_modal1_subtitle">
+						Comité fiscal du gouvernement de la République du Tadjikistan
+					</h3>
 				</div>
 				<button class="modal__close">
 					<img src="img/icons/close.svg" loading="lazy" alt="">
@@ -938,10 +956,11 @@
 									d="M10.2505 3.75694L14.5025 5.61719L18.1289 4.03061C19.3688 3.48819 20.7577 4.39655 20.7577 5.74983V17.2074C20.7577 17.953 20.3163 18.6278 19.6333 18.9266L15.2546 20.8423C14.7751 21.0521 14.2298 21.0521 13.7503 20.8423L9.49834 18.982L5.87187 20.5686C4.63206 21.111 3.24316 20.2027 3.24316 18.8494V7.39181C3.24316 6.64626 3.68452 5.97142 4.36756 5.67259L8.74618 3.75694C9.22568 3.54716 9.771 3.54716 10.2505 3.75694ZM4.869 6.81874L8.87282 5.06706V17.8902L5.37044 19.4225C4.95716 19.6033 4.4942 19.3005 4.4942 18.8494V7.39181C4.4942 7.14329 4.64132 6.91835 4.869 6.81874ZM10.1239 5.06706V17.8902L13.877 19.5322V6.70905L10.1239 5.06706ZM15.128 6.70905V19.5322L19.1318 17.7805C19.3595 17.6809 19.5066 17.4559 19.5066 17.2074V5.74983C19.5066 5.29873 19.0437 4.99595 18.6304 5.17675L15.128 6.70905Z"
 									fill="#004691" />
 							</svg>
-							<h4 class="group-title">Objectif</h4>
+							<h4 class="group-title" data-lang-key="cases_modal1_point1_title">Objectif</h4>
 						</div>
-						<p class="group-text">
-							Améliorer les compétences des employés en matière d'administration fiscale, de numérisation des processus
+						<p class="group-text" data-lang-key="cases_modal1_point1_text">
+							Améliorer les compétences des employés en matière d'administration fiscale, de numérisation des
+							processus
 							et d'application des pratiques russes pour s'adapter au système national
 						</p>
 					</div>
@@ -952,12 +971,12 @@
 									d="M10.2505 3.75694L14.5025 5.61719L18.1289 4.03061C19.3688 3.48819 20.7577 4.39655 20.7577 5.74983V17.2074C20.7577 17.953 20.3163 18.6278 19.6333 18.9266L15.2546 20.8423C14.7751 21.0521 14.2298 21.0521 13.7503 20.8423L9.49834 18.982L5.87187 20.5686C4.63206 21.111 3.24316 20.2027 3.24316 18.8494V7.39181C3.24316 6.64626 3.68452 5.97142 4.36756 5.67259L8.74618 3.75694C9.22568 3.54716 9.771 3.54716 10.2505 3.75694ZM4.869 6.81874L8.87282 5.06706V17.8902L5.37044 19.4225C4.95716 19.6033 4.4942 19.3005 4.4942 18.8494V7.39181C4.4942 7.14329 4.64132 6.91835 4.869 6.81874ZM10.1239 5.06706V17.8902L13.877 19.5322V6.70905L10.1239 5.06706ZM15.128 6.70905V19.5322L19.1318 17.7805C19.3595 17.6809 19.5066 17.4559 19.5066 17.2074V5.74983C19.5066 5.29873 19.0437 4.99595 18.6304 5.17675L15.128 6.70905Z"
 									fill="#004691" />
 							</svg>
-							<h4 class="group-title">Solution</h4>
+							<h4 class="group-title" data-lang-key="cases_modal1_point2_title">Solution</h4>
 						</div>
-						<p class="group-text">
+						<p class="group-text" data-lang-key="cases_modal1_point2_text">
 							Un programme spécialisé a été élaboré, comprenant des cours magistraux, des exercices pratiques et
-							l'utilisation de simulateurs numériques. La formation s'est déroulée en présentiel, avec la participation
-							d'experts du Service fédéral des impôts de Russie
+							l'utilisation de simulateurs numériques. La formation s'est déroulée en présentiel, avec la
+							participation d'experts du Service fédéral des impôts de Russie
 						</p>
 					</div>
 					<div class="group">
@@ -967,18 +986,18 @@
 									d="M10.2505 3.75694L14.5025 5.61719L18.1289 4.03061C19.3688 3.48819 20.7577 4.39655 20.7577 5.74983V17.2074C20.7577 17.953 20.3163 18.6278 19.6333 18.9266L15.2546 20.8423C14.7751 21.0521 14.2298 21.0521 13.7503 20.8423L9.49834 18.982L5.87187 20.5686C4.63206 21.111 3.24316 20.2027 3.24316 18.8494V7.39181C3.24316 6.64626 3.68452 5.97142 4.36756 5.67259L8.74618 3.75694C9.22568 3.54716 9.771 3.54716 10.2505 3.75694ZM4.869 6.81874L8.87282 5.06706V17.8902L5.37044 19.4225C4.95716 19.6033 4.4942 19.3005 4.4942 18.8494V7.39181C4.4942 7.14329 4.64132 6.91835 4.869 6.81874ZM10.1239 5.06706V17.8902L13.877 19.5322V6.70905L10.1239 5.06706ZM15.128 6.70905V19.5322L19.1318 17.7805C19.3595 17.6809 19.5066 17.4559 19.5066 17.2074V5.74983C19.5066 5.29873 19.0437 4.99595 18.6304 5.17675L15.128 6.70905Z"
 									fill="#004691" />
 							</svg>
-							<h4 class="group-title">Progrès</h4>
+							<h4 class="group-title" data-lang-key="cases_modal1_point3_title">Progrès</h4>
 						</div>
 						<div class="group-text">
-							<p>
+							<p data-lang-key="cases_modal1_point3_text1">
 								Des supports adaptés ont été préparés en russe et en tadjik
 							</p>
-							<p>
+							<p data-lang-key="cases_modal1_point3_text2">
 								Des modules en présentiel ont été dispensés à Douchanbé,
 								<br>
 								avec la participation de plus de 150 employés
 							</p>
-							<p>
+							<p data-lang-key="cases_modal1_point3_text3">
 								La formation comprenait des études de cas, des travaux
 								<br>
 								de groupe et des applications pratiques des systèmes d'information
@@ -994,20 +1013,23 @@
 									d="M10.2505 3.75694L14.5025 5.61719L18.1289 4.03061C19.3688 3.48819 20.7577 4.39655 20.7577 5.74983V17.2074C20.7577 17.953 20.3163 18.6278 19.6333 18.9266L15.2546 20.8423C14.7751 21.0521 14.2298 21.0521 13.7503 20.8423L9.49834 18.982L5.87187 20.5686C4.63206 21.111 3.24316 20.2027 3.24316 18.8494V7.39181C3.24316 6.64626 3.68452 5.97142 4.36756 5.67259L8.74618 3.75694C9.22568 3.54716 9.771 3.54716 10.2505 3.75694ZM4.869 6.81874L8.87282 5.06706V17.8902L5.37044 19.4225C4.95716 19.6033 4.4942 19.3005 4.4942 18.8494V7.39181C4.4942 7.14329 4.64132 6.91835 4.869 6.81874ZM10.1239 5.06706V17.8902L13.877 19.5322V6.70905L10.1239 5.06706ZM15.128 6.70905V19.5322L19.1318 17.7805C19.3595 17.6809 19.5066 17.4559 19.5066 17.2074V5.74983C19.5066 5.29873 19.0437 4.99595 18.6304 5.17675L15.128 6.70905Z"
 									fill="#004691" />
 							</svg>
-							<h4 class="group-title">Résultats</h4>
+							<h4 class="group-title" data-lang-key="cases_modal1_point4_title">Résultats</h4>
 						</div>
 						<div class="group-text">
 							<div>
-								<div class="big">150+ employés</div>
-								<span>ont suivi la formation et obtenu la certification finale</span>
+								<div class="big" data-lang-key="cases_modal1_point4_subtitle1">150+ employés</div>
+								<span data-lang-key="cases_modal1_point4_text1">ont suivi la formation et obtenu la certification
+									finale</span>
 							</div>
 							<div>
-								<div class="big">Formé</div>
-								<span>un vivier de talents composé de spécialistes en administration fiscale</span>
+								<div class="big" data-lang-key="cases_modal1_point4_subtitle2">Formé</div>
+								<span data-lang-key="cases_modal1_point4_text2">un vivier de talents composé de spécialistes en
+									administration fiscale</span>
 							</div>
 							<div>
-								<div class="big">Augmenter le niveau de compétence</div>
-								<span>le client a exprimé son intérêt à poursuivre le programme</span>
+								<div class="big" data-lang-key="cases_modal1_point4_subtitle3">Augmenter le niveau de compétence</div>
+								<span data-lang-key="cases_modal1_point4_text3">le client a exprimé son intérêt à poursuivre le
+									programme</span>
 							</div>
 						</div>
 					</div>
@@ -1015,7 +1037,7 @@
 						<div class="profile-avatar">
 							<img src="img/avatar-1.png" loading="lazy" alt="">
 						</div>
-						<div class="profile-quotes">
+						<div class="profile-quotes" data-lang-key="cases_modal1_quotes">
 							« La formation nous a permis d'adopter les meilleures pratiques du Service fédéral des impôts de Russie
 							et de les adapter aux besoins du système fiscal national »
 						</div>
@@ -1034,22 +1056,22 @@
 				<div class="group left">
 					<h3 class="subtitle">Contacts</h3>
 					<ul class="list">
-						<li class="list-title">Rectorat</li>
+						<li class="list-title" data-lang-key="footer_restorat_title">Rectorat</li>
 						<li>+7 (777) 777-77-77</li>
 						<li>academy@nalog.ru</li>
 					</ul>
 					<ul class="list">
-						<li class="list-title">Campus de Nijni Novgorod</li>
+						<li class="list-title" data-lang-key="footer_campus_peterbourg_novgorod">Campus de Nijni Novgorod</li>
 						<li>+7 (777) 777-77-77</li>
 						<li>volga-academy@nalog.ru</li>
 					</ul>
 					<ul class="list">
-						<li class="list-title">Campus de Saint-Pétersbourg</li>
+						<li class="list-title" data-lang-key="footer_campus_peterbourg_title">Campus de Saint-Pétersbourg</li>
 						<li>+7 (777) 777-77-77</li>
 						<li>neva-academy@nalog.ru</li>
 					</ul>
 					<ul class="list">
-						<li class="list-title">Adresse légale</li>
+						<li class="list-title" data-lang-key="footer_adress_title">Adresse légale</li>
 						<li>197342, Saint-Pétersbourg, rue Torzhkovskaya, 10</li>
 					</ul>
 					<div class="social-links">
@@ -1070,30 +1092,31 @@
 					</div>
 				</div>
 				<div class="group">
-					<h3 class="subtitle">Formation</h3>
+					<h3 class="subtitle" data-lang-key="footer_formation_title">Formation</h3>
 					<div class="list">
-						<a href="">Programmes ouverts</a>
-						<a href="">Pour les employés du Service fédéral des impôts de Russie</a>
-						<a href="">Pour les fonctionnaires</a>
-						<a href="">Formations en entreprise</a>
-						<a href="">Séminaires et formations intensives</a>
-						<a href="">Pour les partenaires étrangers</a>
+						<a href="" data-lang-key="footer_formation_text1">Programmes ouverts</a>
+						<a href="" data-lang-key="footer_formation_text2">Pour les employés du Service fédéral des impôts de
+							Russie</a>
+						<a href="" data-lang-key="footer_formation_text3">Pour les fonctionnaires</a>
+						<a href="" data-lang-key="footer_formation_text4">Formations en entreprise</a>
+						<a href="" data-lang-key="footer_formation_text5">Séminaires et formations intensives</a>
+						<a href="" data-lang-key="footer_formation_text6">Pour les partenaires étrangers</a>
 					</div>
 				</div>
 				<div class="group">
-					<h3 class="subtitle">Académie</h3>
+					<h3 class="subtitle" data-lang-key="footer_academy_title">Académie</h3>
 					<div class="list">
-						<a href="">À propos</a>
-						<a href="">Projets du FTS LAB</a>
-						<a href="">Actualités et événements</a>
-						<a href="">Offres d'emploi</a>
-						<a href="">À propos de l'établissement d'enseignement</a>
+						<a href="" data-lang-key="footer_academy_text1">À propos</a>
+						<a href="" data-lang-key="footer_academy_text2">Projets du FTS LAB</a>
+						<a href="" data-lang-key="footer_academy_text3">Actualités et événements</a>
+						<a href="" data-lang-key="footer_academy_text4">Offres d'emploi</a>
+						<a href="" data-lang-key="footer_academy_text5">À propos de l'établissement d'enseignement</a>
 					</div>
 				</div>
 			</div>
 			<div class="bottom">
-				<a href="" class="link">Politique de confidentialité</a>
-				<a href="" class="link">Лицензия</a>
+				<a href="" class="link" data-lang-key="footer_pp">Politique de confidentialité</a>
+				<a href="" class="link" data-lang-key="footer_license">Лицензия</a>
 			</div>
 		</div>
 	</footer>
