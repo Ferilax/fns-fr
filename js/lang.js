@@ -60,7 +60,7 @@ export const translations = {
 	},
 	advantages_card1_text: {
 		fr: "Les formations sont dispensées par des responsables et spécialistes du Service fédéral des impôts, qui partagent des pratiques concrètes et des méthodes éprouvées",
-		ar: "يتم تقديم الدورات التدريبية من قبل المديرين والمتخصصين من دائرة الضرائب الفيدرالية، الذين يشاركون الممارسات الملموسة والأساليب المثبتة.يتم تقديم الدورات التدريبية من قبل المديرين والمتخصصين من دائرة الضرائب الفيدرالية، الذين يشاركون الممارسات الملموسة والأساليب المثبتة.",
+		ar: "يتم تقديم الدورات التدريبية من قبل المديرين والمتخصصين من دائرة الضرائب الفيدرالية، الذين يشاركون الممارسات الملموسة والأساليب المثبتة.",
 	},
 	advantages_card2_title: {
 		fr: "Adaptation aux besoins du client",
@@ -206,7 +206,7 @@ export const translations = {
 	},
 
 	steps_title: {
-		fr: "Étapes de développement du programme d'entreprise",
+		fr: "Étapes de développement\ndu programme d'entreprise",
 		ar: "مراحل تطوير البرامج المؤسسية",
 	},
 	steps_card1_title: {
@@ -218,7 +218,7 @@ export const translations = {
 		ar: "نحن نعمل مع العميل لتحديد أهداف الشركة أو الوكالة الحكومية وتحليل المستوى الحالي لمهارات الموظفين.",
 	},
 	steps_card2_title: {
-		fr: "Conception du programme",
+		fr: "Conception\ndu programme",
 		ar: "تصميم البرنامج",
 	},
 	steps_card2_text: {
@@ -234,7 +234,7 @@ export const translations = {
 		ar: "نقوم باختيار الخبراء والمدربين، ونوفر للطلاب المواد التعليمية، والوصول عبر الإنترنت والبنية التحتية (الفصول الدراسية، ومحاكيات رقمية، والمحاكاة)",
 	},
 	steps_card4_title: {
-		fr: "Mise en œuvre du programme",
+		fr: "Mise en œuvre\ndu programme",
 		ar: "تنفيذ البرنامج",
 	},
 	steps_card4_text: {
@@ -242,7 +242,7 @@ export const translations = {
 		ar: "نحن نعمل على إنشاء مجتمع خريجين، وتوفير إمكانية الوصول إلى المواد الحديثة والدعم من الخبراء",
 	},
 	steps_card5_title: {
-		fr: "Évaluation des résultats",
+		fr: "Évaluation\ndes résultats",
 		ar: "تقييم النتائج",
 	},
 	steps_card5_text: {
@@ -250,7 +250,7 @@ export const translations = {
 		ar: "نحن نتتبع الحضور والتقدم، ونستخدم الاختبارات ودراسات الحالة ونجري التقييم النهائي",
 	},
 	steps_card6_title: {
-		fr: "Retour d'information et amélioration",
+		fr: "Retour d'information\net amélioration",
 		ar: "الملاحظات والتحسين",
 	},
 	steps_card6_text: {
@@ -258,7 +258,7 @@ export const translations = {
 		ar: "نقوم بجمع تعليقات الطلاب، وتحليل NPS وجودة التدريس،وتقديم توصيات للتطوير المستقبلي.",
 	},
 	steps_card7_title: {
-		fr: "Accompagnement post-programme",
+		fr: "Accompagnement\npost-programme",
 		ar: "دعم ما بعد البرنامج",
 	},
 	steps_card7_text: {
@@ -377,19 +377,19 @@ export const translations = {
 		ar: "المزايا الرئيسية",
 	},
 	curateurs_card1_name: {
-		fr: "Vasily\r\nSemenovich Novikov",
+		fr: "Vasily\nSemenovich Novikov",
 		ar: "فاسيلي سيمينوفيتش نوفيكوف",
 	},
 	curateurs_card2_name: {
-		fr: "Valentina\r\nAnatolyevna Koryazina",
+		fr: "Valentina\nAnatolyevna Koryazina",
 		ar: "فالنتينا أناتوليفنا كوريازينا",
 	},
 	curateurs_card3_name: {
-		fr: "Vladimir\r\nVasilyevich Gusev",
+		fr: "Vladimir\nVasilyevich Gusev",
 		ar: "فلاديمير فاسيليفيتش غوسيف",
 	},
 	curateurs_card4_name: {
-		fr: "Alexander\r\nViktorovich Gnedykh",
+		fr: "Alexander\nViktorovich Gnedykh",
 		ar: "ألكسندر فيكتوروفيتش غنيديخ",
 	},
 	curateurs_card1_status: {
@@ -540,6 +540,10 @@ export const translations = {
 		ar: "The training is conducted by current managers and specialists of the Federal Tax Service, sharing real-world practices and proven methods.",
 	},
 
+	footer_contacts_title: {
+		fr: "Contacts",
+		ar: "جهات الاتصال",
+	},
 	footer_restorat_title: {
 		fr: "Rectorat",
 		ar: "رئاسة الجامعة",

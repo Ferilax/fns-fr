@@ -1,6 +1,7 @@
 .splide__arrows {
 	display: flex;
 	gap: 10px;
+	direction: ltr;
 
 	.splide__arrow {
 		display: flex;
@@ -14,7 +15,6 @@
 		border-radius: 100%;
 		background: white;
 
-		&:hover {}
 
 		&:disabled {
 			cursor: default;

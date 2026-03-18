@@ -1,0 +1,150 @@
+header {
+
+	.container,
+	.left,
+	.fns,
+	.right {
+		flex-direction: row-reverse;
+	}
+
+	.send-application {
+		padding: 0 60px;
+	}
+
+	.left {
+		flex-direction: row-reverse;
+	}
+
+	.fns {
+		text-align: left;
+	}
+}
+
+.start-news {
+	.link {
+
+		svg,
+		img {
+			rotate: 180deg;
+		}
+
+		&:hover {
+
+			svg,
+			img {
+				rotate: 270deg;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.advantages {
+	.card-title {
+		margin-top: auto;
+	}
+}
+
+.programs {
+	.grid {
+		direction: ltr;
+	}
+
+	.card {
+		direction: rtl;
+	}
+}
+
+.formats {
+	.card._active {
+		.card-button {
+			padding: 0 60px;
+		}
+	}
+}
+
+.steps {
+	.grid {
+		direction: ltr;
+	}
+
+	.card {
+		direction: rtl;
+	}
+
+	.fifth {
+		@media (width >=1024px) {
+
+			img {
+				left: -30px;
+				right: unset;
+			}
+		}
+	}
+
+	.seventh {
+		img {
+			scale: -1 1;
+		}
+	}
+}
+
+.cases {
+	.card-tag {
+		padding: 0 60px;
+	}
+
+	@media (width >=1024px) {
+		.flex {
+			flex-direction: row-reverse;
+		}
+	}
+}
+
+.partners {
+	@media (width >=1024px) {
+		.row {
+			flex-direction: row-reverse;
+		}
+	}
+}
+
+.curateurs {
+	.row {
+		direction: ltr;
+	}
+
+	.card {
+		direction: rtl;
+	}
+}
+
+.formation {
+	.button {
+		padding: 0 60px;
+	}
+}
+
+.form-section {
+	.submit {
+		padding: 0 60px;
+	}
+
+	input {
+		direction: rtl;
+	}
+}
+
+footer {
+	.logo {
+		margin-right: auto;
+	}
+}
+
+.splide {
+	direction: ltr;
+
+	.splide__slide {
+		direction: rtl;
+	}
+}
