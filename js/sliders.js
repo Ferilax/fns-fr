@@ -108,10 +108,6 @@ import "./libs/splide-extension-auto-scroll.min.js"
 		arrows: true,
 		type: "fade",
 		drag: false,
-		breakpoints: {
-			767: {
-			}
-		}
 	})
 
 	// ------------------------------------------------------------------------------------------------------------------------------------
@@ -120,6 +116,7 @@ import "./libs/splide-extension-auto-scroll.min.js"
 		const splide = new Splide(el, {
 			arrows: true,
 			pagination: true,
+			gap: 10,
 		});
 		splide.mount()
 	})
